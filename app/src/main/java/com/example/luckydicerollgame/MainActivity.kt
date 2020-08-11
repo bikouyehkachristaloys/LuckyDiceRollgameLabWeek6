@@ -2,8 +2,8 @@ package com.example.luckydicerollgame
 
 fun main() {
     val myFirstDice = Dice(6)
-    val diceRoll = myFirstDice.roll()
-    println("Your ${myFirstDice.numSides} sided dice rolled ${diceRoll}!")
+    val rollResult = myFirstDice.roll()
+    val luckyNumber = 4
 }
 
 class Dice (val numSides: Int) {
@@ -12,3 +12,4 @@ class Dice (val numSides: Int) {
         return (1..numSides).random()
     }
 }
+
