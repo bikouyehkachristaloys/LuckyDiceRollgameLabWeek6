@@ -7,6 +7,8 @@ fun main() {
 
     if (rollResult == luckyNumber) {
         println("You win!")
+    } else {
+        println("You didn't win, try again!")
     }
 }
 
